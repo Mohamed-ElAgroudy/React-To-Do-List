@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.todo-list {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: blue;
+  text-align: center;
+  padding: 25px 24px;
+  color:white;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
